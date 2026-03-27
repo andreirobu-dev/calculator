@@ -27,14 +27,21 @@ body {
 }
 
 #screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
     width: 95%;
     height: 15%;
 
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 20px;
+    padding: 10px;
 
     background-color: lightgray;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 #buttons {
@@ -65,6 +72,10 @@ body {
     border-radius: 20px;
 
     font-size: 200%;
+}
+
+.operator {
+    background-color: yellow;
 }
 
 .button:hover {
